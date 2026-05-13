@@ -1,0 +1,34 @@
+#import "LTNGetV1RunnerModels200Response.h"
+
+@implementation LTNGetV1RunnerModels200Response
+
+- (instancetype)init {
+  self = [super init];
+  if (self) {
+    // initialize property's default value, if any
+    
+  }
+  return self;
+}
+
+
+/**
+ * Maps json key to property name.
+ * This method is used by `JSONModel`.
+ */
++ (JSONKeyMapper *)keyMapper {
+  return [[JSONKeyMapper alloc] initWithModelToJSONDictionary:@{ @"data": @"data", @"error": @"error", @"meta": @"meta", @"success": @"success" }];
+}
+
+/**
+ * Indicates whether the property with the given name is optional.
+ * If `propertyName` is optional, then return `YES`, otherwise return `NO`.
+ * This method is used by `JSONModel`.
+ */
++ (BOOL)propertyIsOptional:(NSString *)propertyName {
+
+  NSArray *optionalProperties = @[@"data", @"error", @"meta", ];
+  return [optionalProperties containsObject:propertyName];
+}
+
+@end

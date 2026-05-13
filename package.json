@@ -1,0 +1,16 @@
+{
+  "name": "@lthn/sdk-objc",
+  "version": "0.1.0",
+  "description": "lthn HTTP gateway SDK — auto-generated from the live api.Engine. See https://github.com/LetheanNetwork/desktop for source.",
+  "license": "EUPL-1.2",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LetheanNetwork/sdk-objc.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
